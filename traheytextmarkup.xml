@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt>
+                <ab>lorem ipsum</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <ab>lorem ipsum</ab>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+  <body>
+      <div type="edition" xml:space="preserve">
+      <ab>A <term type="technique" ref="http://kerameikos.org/id/red_figure"><!-- will this work to reference the id that they have in rdf/xml? -->red-figure</term> <term type="shape" ref="http://kerameikos.org/id/amphora"> amphora</term> that recalls the <persName role="vase painter">Euergides Painter</persName> <date>from="525 BC" to="500 BC">(525–500 b.c.)</date>
+        shows a <term type="ethnicity">Greek</term> warrior named <persName xml:lang="grc-Latn">Hippaichmos</persName> leading a horse toward an
+        Amazon or a Scythian (the gender, as often, is difficult to distinguish)
+        whose non-Greek name is <foreign xml:lang="grc">ΣΕΡΑΓΥΕ</foreign>, <persName xml:lang="grc-Latn">Serague</persName>. The same name
+        labels a Scythian-style archer on a contemporary <term type="shape" ref="http://kerameikos.org/id/cup">cup</term> attributed to the
+        <persName role="vase painter">Delos Painter</persName>. In <term type="language">Circassian</term> <persName>Serague</persName> would mean <def> “Wearing (Armed
+        with) Dagger or Sword.” </def> <!-- not sure why def is an error...was given in tei guidelines --> As <term type="language">Circassian</term> is not a gendered language, this
+        name could apply to either sex.
+      
+        A fragmentary <term type="technique" ref="http://kerameikos.org/id/red_figure">red-figure</term> <term type="shape">rhyton</term> found in <settlement>Susa</settlement> and attributed to the <persName role="vase painter">Sotades
+        Painter</persName> <date>from="475 BC" to="450 BC">(475–450 b.c.)</date> depicts Amazons labeled <foreign xml:lang="grc">ΓΥΓΑΜΙΣ</foreign>, <persName xml:lang="grc-Latn">Gugamis</persName>, and
+        <foreign xml:lang="grc">ΟΙΓΜΕ</foreign>, <persName xml:lang="grc-Latn">Oigme</persName>. <surname>Bothmer</surname> notes that the name <persName xml:lang="grc-Latn">Gugamis</persName> seems
+        to have a <term type="ethnicity">Persian</term> ring; the suffix “-mis” is <term type="ethnicity">Persian</term> but the root suggests
+        “iron” in <term type="language">Circassian</term>. Notably, the Greeks believed that the Amazons were
+        the first people to use <objectType>iron weapons</objectType> (Lys. 2.4). <persName xml:lang="grc-Latn">Oigme</persName> resembles <term type="language">Ubykh</term>
+        forms for something like <def> “Don’t Fail!”</def> The Ubykhs, on the northeastern
+        coast of the <geogName type="sea">Black Sea</geogName>, were reputed to be among the foremost warriors
+        of the <region>Caucasus</region>. Other <objectType>vases</objectType> produced by the <orgName>Sotades workshop</orgName> bear
+        literate <term type="ethnicity">Greek</term> inscriptions, but since a number are decorated with exotic
+        <term type="ethnicity">Persian</term>, Amazon, and other barbarian themes, and since examples have
+        been found at <settlement>Kerch</settlement> and in <country>Egypt</country>, as well as in <country>Persia</country>, some may have
+        been made with non-Greek markets in mind. <surname>Bothmer</surname> and <surname>Immerwahr</surname>
+        suggest that the <occupation>painter</occupation> <!-- not sure why occupation is an error...was given in tei guidelines --> may have known the destination of the <objectType>vase</objectType> and
+        used Persian-sounding names for that reason. 
+        
+        A fragmentary <term type="technique" ref="http://kerameikos.org/id/black_figure">black-figure </term> <term type="shape" ref="http://kerameikos.org/id/olpe">olpe</term> attributed to the <orgName ref="http://kerameikos.org/id/leagros_group">Leagros Group</orgName> <date> from="525 BC" to="510 BC">(525–
+        510 b.c.)</date>, described above, shows two Amazons on foot (Fig. 2). Beside
+        them is a dog with a red collar. (Amazons, like Greek warriors and hunters,
+        are often depicted with dogs.) The first Amazon turns back toward
+        her companion, giving the impression of a conversation. The letter strings
+        painted next to the women, ΟΗΕ(Υ)Ν and ΚΕ(Υ)Ν, can be interpreted as
+        ancient forms of <term type="language">Abkhazian</term>.The meaning of the first word depends
+        on the pronunciation of the letter Η (as an aspirate or as a vowel): <foreign>oheun</foreign>
+        would signify <def>“They/She were/was over there,”</def> <foreign>oēeun</foreign> would mean <def>“We are
+        helping each other.”</def> <foreign>Keun</foreign> means <def>“Set the dog loose.”</def>
+        
+        Although literary evidence supports the presence of individual Scythians
+        in <country>Greece</country> in the late <date> from="600 BC" to="500 BC">6th</date> and <date>from="500 BC" to="400 BC">5th</date> centuries b.c., the foreign inscriptions
+        discussed in this article cannot be taken, prima facie, as confirmation of
+        historical reports of a large “official” force of Scythians in <settlement>Athens</settlement>. The
+        ethnicity of Scythian-costumed figures on <objectType>vases</objectType> remains an open question.
+        But the discovery on <term type="ethnicity">Athenian</term> <objectType>vases</objectType> of foreign names and other words
+        intentionally and meaningfully associated with Scythian-garbed figures
+        suggests that at least some Scythians were present in <settlement>Athens</settlement> and that their
+        language was available to <occupation>vase painters</occupation>and their customers.
+      </ab>
+          </div>
+  </body>
+    </text>
+</TEI>
